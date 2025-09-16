@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "id": "cspm",
+      "name": "CSPM Executive Dashboard",
+      "widgets": [
+        {
+          "id": "cspm-w1",
+          "title": "Compliance Overview",
+          "text": "Shows overall compliance status",
+          "chartData": [12, 19, 3, 5, 2, 3]
+        },
+        {
+          "id": "cspm-w2",
+          "title": "Policy Violations",
+          "text": "Tracks number of policy violations",
+          "chartData": [5, 10, 8, 4, 6, 9]
+        }
+      ]
+    },
+    {
+      "id": "cwpp",
+      "name": "CWPP Executive Dashboard",
+      "widgets": [
+        {
+          "id": "cwpp-w1",
+          "title": "Workload Security",
+          "text": "Monitors workload security posture",
+          "chartData": [7, 9, 11, 5, 3, 6]
+        },
+        {
+          "id": "cwpp-w2",
+          "title": "Threat Detection",
+          "text": "Displays detected threats over time",
+          "chartData": [3, 6, 9, 12, 15, 18]
+        }
+      ]
+    }
+  ]
+}
